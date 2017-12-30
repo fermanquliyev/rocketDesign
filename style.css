@@ -1,0 +1,200 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+#header{
+	background-color: #6790ad;
+}
+.logo-block{
+	float: left;
+	width: 100px;
+	margin-top: 25px;
+	
+}
+.logo-block img{
+	width: 100%;
+	display: block;
+}
+.top-header{
+	width: 100%;
+	height: 100px;
+}
+.nav-block{
+	float: right;
+	margin-top: 38px;
+	
+}
+.nav-button{
+	position: absolute;
+	font-size: 3rem;
+	color: rgba(255,255,255,0.8);
+	right: 1.5rem;
+	top: 0.8rem;
+	display: none;
+}
+.nav-menu{
+	font-size: 16px;
+	padding: 10px 15px;
+	background-color:#6790ad;
+	border: 1px solid #fff;
+	display: inline-block;
+	position: absolute;
+	left: -200%;
+	top: 36px; 
+	z-index: 10;
+	text-align: center;
+	color: #fff;
+	display: none;
+}
+.nav-menu ul li a{
+	color: #fff;
+}
+.nav-menu ul li a:hover{
+	text-decoration: none;
+}
+.nav-button:hover{
+	color: #fff;
+}
+.nav-block ul li{
+	float: left;
+	margin-right: 15px;
+}
+.nav-block ul li:last-child{
+	margin-right: 0px;
+}
+.nav-block ul li a{
+	color: #fff;
+}
+.nav-block ul li a:hover{
+	text-decoration: none;
+}
+.header-img{
+	width: 100%
+}
+.header-img img{
+	display: block;
+	width: 100%;
+}
+.gutter-0.row {
+  margin: 0px;
+  padding: 0px;
+  line-height: 0px;
+}
+.gutter-0 > [class^="col-"], .gutter-0 > [class^=" col-"]{
+  padding: 0px !important;
+  margin: 0px !important;
+
+}
+.skill{
+	text-align: center;
+	padding: 25px 0px;
+	color: #fff;
+}
+.skill a{
+	color: #fff;
+}
+.skill a:hover{
+	text-decoration: none;
+}
+.skill .fa{
+	font-size: 5rem;
+	margin-bottom: 30px;
+}
+.skill p{
+	font-size: 22px;
+}
+.bg-html{
+	background: #f1a98d;
+}
+.bg-css{
+	background: #beb9ab;
+}
+.bg-seo{
+	background: #a9dcd2;
+}
+.bg-social{
+	background: #a2b2c2;
+}
+.bg-brown{
+	background: #b6ad9f;
+}
+.bg-cyan{
+	background: #99d2c8;
+}
+.max-content{
+	height: max-content;
+	max-height: max-content;
+}
+.device{
+	width: 100%;
+}
+.device img{
+	width: 100%;
+	display: block;
+}
+.bg-device{
+	background: #b8ccd8;
+}
+.text{
+	width: 100%;
+	line-height: 2;
+	color: #fff;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.text p{
+	font-size: 18px;
+}
+.about{
+	line-height: 1.5;
+	padding: 15px;
+	height: 100%;
+	box-sizing: border-box;
+	color: #fff;
+}
+.happy{
+	width: 100%;
+	height: 50px;
+	font-size: 32px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-weight: bold;
+}
+.social{
+	background-color: #6790ad;
+	font-size: 5rem;
+	text-align: center;
+	color: rgba(255,255,255,0.8);
+}
+.social .fa{
+	padding: 35px 0px;
+}
+.social .fa:hover{
+	color: #fff;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: #443a4a;
+	border-top: 1px solid #fff;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-weight: bold;
+}
+@media  screen and (max-width: 575px) {
+.social{
+	font-size: 4rem;
+}
+.nav-block{
+	display: none;
+}
+.nav-button{
+	display: block;
+}
+}
+@media  screen and (max-width: 425px) {
+.social{
+	font-size: 3rem;
+}
+
+}
