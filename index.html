@@ -19,20 +19,20 @@
 			</div>
 			<div class="nav-block">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact us</a></li>
+					<li><a href="#" class="homeButton">Home</a></li>
+					<li><a href="#" class="aboutButton">About us</a></li>
+					<li><a href="#" class="blogButton">Blog</a></li>
+					<li><a href="#" class="contactButton">Contact us</a></li>
 				</ul>
 			</div>
 			<div class="nav-button">
 				<i class="fa fa-bars"></i>
 				<div class="nav-menu">
 					<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact us</a></li>
+					<li><a href="#" class="homeButton">Home</a></li>
+					<li><a href="#" class="aboutButton">About us</a></li>
+					<li><a href="#" class="blogButton">Blog</a></li>
+					<li><a href="#" class="contactButton">Contact us</a></li>
 					</ul>
 				</div>
 			</div>
@@ -181,6 +181,22 @@
 <script>
 	$(".nav-button").click(function(){
 		$(".nav-menu").toggle();
+	});
+	$(".aboutButton").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#devices").offset().top
+    }, 1000);
+	});
+
+	$(".blogButton").click(function() {
+    		$('html, body').animate({
+        	scrollTop: $("#about").offset().top
+   		}, 1500);
+	});
+	$(".contactButton").click(function() {
+    		$('html, body').animate({
+        	scrollTop: $("#contact").offset().top
+    		}, 100);
 	});
 </script>
 
